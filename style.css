@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Laila:wght@300;400;600&display=swap');
+
+html{
+    background-color: lightpink;
+}
+
+h1{
+    background-color: tomato;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+a{
+    background-color: rgb(206, 149, 63);
+}
+
+.font-grosso{
+    font-size: xx-large;
+}
+
+.font-normale{
+    font-weight: 1000;
+}
+#titolo-principale{
+    color: gold;
+}
+
+h4, h5{
+    color: paleturquoise;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p a{
+    color : white;
+}
+
+.titolone{
+    width: 50%;
+    height: 50px;
+}
+
+.mamma{
+    background-color: darkorange;
+    width: 50%;
+    height: 50%;
+}
+
+.figlia{
+    width: 50%;
+    min-width: 200px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.primo{
+    background-color: aqua;
+    padding: 18px;
+}
+
+.secondo{
+    background-color: chartreuse;
+    margin: 20px 16px 18px 4px;
+}
+
+.terzo{
+    /* border-style: solid;
+    border-color: green;
+    border-width: 25px; */
+    height: 50px;
+    border: solid 25px green;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius:80%;
+    background-image:url("./assets/ranadivetro.png");
+    background-size: contain;
+}
+
+.quarto{
+display: inline-block;
+background-color: blueviolet;
+width: 300px;
+height: 100px;
+}
+
+.quinto{
+    display: inline;
+}
+
+/*
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Laila', sans-serif;
+*/
+
+body{
+    font-family: 'Laila';
+}
